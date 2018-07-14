@@ -10,4 +10,3 @@ with tf.Session() as sess:
     print ("a = 2, b = 3")
     print ("Addition = {}".format(sess.run(a+b)))
     print ("Multiplication = {}".format(sess.run(a*b)))
-    #
